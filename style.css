@@ -1,0 +1,174 @@
+.clearfix::after{
+content: '';
+clear: both;
+display: block;
+}
+
+/* header start */
+
+.header-logo{}
+
+.header-logo img{
+    width: 100px;
+    padding: 15px 0;
+}
+
+.header{
+    background-color: #101446;
+}
+.right-side{}
+
+.right-side ul{
+    margin-bottom: 0;
+}
+
+.right-side ul li{
+    display: inline-block;
+}
+
+.right-side ul li a{
+    display: block;
+    padding: 31px 0;
+    line-height: 30px;
+    margin-left: 26px;
+    color: #ffff;
+    text-decoration: none;
+}
+
+/* header end */
+
+/* banner start */
+
+.banner{
+    background-image: url(https://i.postimg.cc/DyYD3rVr/intro-bg.jpg);
+    padding: 376px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.middle-div h2{
+    color: #ffff;
+    font-size: 45px;
+    margin-bottom: 31px;
+}
+.middle-div p{
+    color: #ffff;
+    margin: 65px 0;
+    width: 831px;
+    margin: auto;
+    font-size: 17px;
+}
+
+.middle-div ul{
+    margin-top: 55px;
+}
+.middle-div ul li{
+   
+}
+.middle-div ul li a{
+    display: inline-block;
+    color: #ffff;
+    text-decoration: none;
+    background-color: #337ab7;
+    padding: 11px 24px;
+    border-radius: 5px;
+}
+
+/* banner end */
+
+/* teem secton start */
+
+.our-teem{
+    background-color: #bac1f3;
+    padding: 118px 0;
+}
+
+.fst-img p{
+    width: 212px;
+    margin: auto;
+}
+
+.col-md-4{
+float: left;
+width: 33%;
+}
+
+.fst-img ul{
+    margin-top: 12px;
+    margin-right: 47px;
+}
+.fst-img ul li{
+    list-style: none;
+}
+.fst-img ul li a{
+    text-decoration: none;
+    color: #ffff;
+    background-color: #337ab7;
+    padding: 9px 17px;
+    border-radius: 5px
+}
+
+.col-md-12 h1{
+    font-size: 61px;
+    margin-bottom: 92px;
+}
+
+/* teem secton end */
+
+
+/* about section start */
+
+.about{
+    background: #c2d4ea;
+    padding: 60px;
+}
+.about img{
+    width: 139px;
+    height: 147px;
+}
+.about h2{
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 42px;
+}
+.fwbold{
+    font-weight: 600;
+}
+.aboutme{
+    text-align: left; 
+    display: inline-block;
+    padding-bottom:30px ;
+}
+
+/* map section */
+
+.map{ 
+    background: #f5f5f5;
+    padding: 100px 0;
+
+}
+
+.map h1{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.map-im{
+    max-width: 100%;
+}
+
+/* footer sec */
+
+.footer{
+background-color: #0062d3;
+padding: 11px 0;
+margin-top: 55px;
+}
+
+.footer span{
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+}
